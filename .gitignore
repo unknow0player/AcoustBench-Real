@@ -1,0 +1,41 @@
+# ==============================================
+# 音频数据集专用 .gitignore
+# 只会忽略垃圾文件、系统文件，不会忽略音频和CSV
+# ==============================================
+
+# Windows 系统垃圾文件
+Thumbs.db
+Thumbs.db:encryptable
+desktop.ini
+
+# macOS 系统垃圾文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# 临时文件、日志、缓存
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Excel/表格临时文件（防止你编辑CSV时产生垃圾）
+~$*
+
+# 压缩包（不建议上传大压缩包到GitHub）
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# 编辑器/IDE配置（每个人电脑不一样，不用上传）
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 数据库/无关文件
+*.db
+*.sqlite
