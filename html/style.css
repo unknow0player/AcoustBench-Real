@@ -1,0 +1,124 @@
+/* ========== 全局样式 ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", "SimSun", serif;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.65;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+/* ========== 顶部论文标题区 ========== */
+.paper-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.paper-header h1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.conference {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 18px;
+}
+
+.authors span {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+.affiliation {
+  font-size: 16px;
+  color: #555;
+  margin-top: 8px;
+}
+
+.links {
+  margin: 22px 0;
+}
+
+.link-btn {
+  font-size: 18px;
+  color: #0066cc;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.logo img {
+  display: block;
+  margin: 22px auto;
+}
+
+.tagline {
+  font-size: 18px;
+  margin-top: 15px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ========== 摘要区域 ========== */
+.abstract-section {
+  margin-bottom: 50px;
+}
+
+.abstract-section h2 {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.abstract-text {
+  font-size: 17px;
+  text-align: justify;
+  margin-bottom: 45px;
+  line-height: 1.7;
+}
+
+/* ========== 图片居中样式 ========== */
+.data-pipeline,
+.train-figure,
+.testset-distribution,
+.results-table {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.data-pipeline img,
+.train-figure img,
+.testset-distribution img,
+.results-table img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.caption {
+  font-size: 15px;
+  color: #333;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* ========== 你要的：大标题（Results on Four Datasets） ========== */
+.big-section-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px 0 30px 0;
+  color: #111;
+}
